@@ -67,7 +67,7 @@ class Owner
         animal.mood = "nervous"
       end
     end
-    self.reset_all
+    @pets.clear
   end
   
 end
