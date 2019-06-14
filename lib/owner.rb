@@ -71,7 +71,11 @@ class Owner
   end
   
   def list_pets
+    dogs = self.pets[:dogs].length
+    cats = self.pets[:cats].length
+    fish = self.pets[:fishes].length
     
+    "I have #{fish} fish, #{dogs} dog(s), and #{cats} cat(s)."
   end
   
 end
